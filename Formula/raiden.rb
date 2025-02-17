@@ -4,21 +4,21 @@ class Raiden < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/sev-2/raiden/releases/download/v1.0.0-beta.36/raiden-macos-amd64"
-      sha256 "4812604e31a86973350c0b1fc9042dbfbd96bde59b5d801e5abf5d4c51297ead"
+      url "https://github.com/sev-2/raiden/releases/download/v1.0.0-beta.40/raiden-macos-amd64"
+      sha256 "6cd4e0f8fdbb01c8095eeef3414cbe83ec930cc33714a57e7eeeb1282a53724e"
     elsif Hardware::CPU.arm?
-      url "https://github.com/sev-2/raiden/releases/download/v1.0.0-beta.36/raiden-macos-arm64"
-      sha256 "fca400f5d64032f46b65c174c2094dd378085c6552c3a8e72fa0b4931959e9bb"
+      url "https://github.com/sev-2/raiden/releases/download/v1.0.0-beta.40/raiden-macos-arm64"
+      sha256 "28131e134ebd90cdb3b0b9710f8b296901ecb227accc25567dd5e704bff1d238"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/sev-2/raiden/releases/download/v1.0.0-beta.36/raiden-linux-amd64"
-      sha256 "2dc80840fd3ef76de5ccc33c08bc57dd26341b86ff0d091689b7511963b859b3"
+      url "https://github.com/sev-2/raiden/releases/download/v1.0.0-beta.40/raiden-linux-amd64"
+      sha256 "b38b82ba9a2812d02b10b7a3bb42944d27aba0da2d8784f597eb7aece93f66ca"
     elsif Hardware::CPU.arm?
-      url "https://github.com/sev-2/raiden/releases/download/v1.0.0-beta.36/raiden-linux-arm64"
-      sha256 "ddf8b97de68c076411a7d4b6732ec4c0c65009adbdbf9f3127025ab44e01c1a6"
+      url "https://github.com/sev-2/raiden/releases/download/v1.0.0-beta.40/raiden-linux-arm64"
+      sha256 "2dd8e060cbf6e837ad23b593d3573e52a13029e7460807814225b125fead2140"
     end
   end
 
